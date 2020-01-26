@@ -1,0 +1,24 @@
+{
+  "name": "nextjs-mongodb-app",
+  "version": "1.0.0",
+  "description": "Production boilerplate for Next.js and MongoDB",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bcrypt": "^3.0.7",
+    "dotenv": "^8.2.0",
+    "next": "^9.2.0",
+    "next-session": "^2.2.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "validator": "^12.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "next dev -p 3002",
+    "build": "next build",
+    "start": "next start"
+  },
+  "author": "Matt Robillard",
+  "license": "MIT"
+}
